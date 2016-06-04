@@ -2,7 +2,7 @@
   "name": "chord-viewer",
   "version": "1.0.0",
   "description": "A Snap.svg plugin to view chords on a stringed instrument",
-  "main": "index.js",
+  "main": "dist/chordViewer.min.js",
   "scripts": {
     "start": "npm run bundle",
     "bundle": "webpack",
