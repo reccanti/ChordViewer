@@ -21,6 +21,10 @@ module.exports = {
     module: {
         loaders: [
             {
+                test: require.resolve('snapsvg'),
+                loader: 'imports-loader?this=>window,fix=>module.exports=0'
+            },
+            {
                 test: /\.js$/,
                 exclude: /(node_modules|bower_components)/,
                 loader: 'babel', // 'babel-loader' is also a legal name to reference
