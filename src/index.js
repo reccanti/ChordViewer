@@ -274,4 +274,3 @@
 // r.render('.uke-chord');
 
 import { render } from './renderer';
-window.render = render;
